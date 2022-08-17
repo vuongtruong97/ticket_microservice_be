@@ -14,6 +14,10 @@ const start = async () => {
         throw new Error('RABBIT_URI is not define')
     }
     console.log('Test console')
+    console.log('Test console')
+    console.log('Test console')
+    console.log('Test console')
+    console.log('Test console')
     try {
         await mongoose.connect(process.env.MONGO_URI)
 
